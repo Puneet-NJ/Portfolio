@@ -2,7 +2,7 @@ import "./hero.scss";
 import { motion } from "framer-motion";
 import hero_img from "../../images/hero.png";
 import scroll_img from "../../images/scroll.png";
-import resume from "./Puneet NJ.pdf";
+import resume from "./Puneet NJ-FS.pdf";
 
 const textVariants = {
 	initial: {
@@ -60,15 +60,13 @@ const Hero = () => {
 						<motion.button
 							variants={textVariants}
 							className="cv"
-							onClick={() => {
-								console.log("hi2");
-							}}
+							onClick={() => {}}
 						>
 							<b>Download CV</b>
 						</motion.button>
 					</a>
 					<motion.h1 variants={textVariants}>
-						Front-end developer and Enthusiast
+						Full-stack Developer and tech Enthusiast
 					</motion.h1>
 					<motion.div variants={textVariants} className="buttons">
 						{/* <a href={`#$contact`}>

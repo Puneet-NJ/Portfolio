@@ -30,13 +30,14 @@ const Skills_About = () => {
 				<h1>About me</h1>
 				<p>
 					I am a final year student pursuing B.E. in Information Science from
-					PDA College of Engineering. I am currently into front-end web
-					development. My favorite part of programming is the learning new
-					technologies and problem-solving aspect. I love the feeling of finally
-					getting that red squibbly line out of the way. My core stack is React,
-					Tailwind, Redux, Java (DSA). I am always looking to learn new
-					technologies. I am currently looking for a full-time position or
-					internship as a software developer.
+					PDA College of Engineering. I am currently into Full-stack web
+					development(MERN). My favorite part of programming is that it makes
+					feel excited and also problem-solving aspect. I love the feeling of
+					finally getting that red squibbly line out of the way. My core stack
+					is MongoDB, Express, React, NodeJS Tailwind, State management(Redux &
+					Recoil), Java (DSA). I am always looking to learn new technologies. I
+					am currently looking for a full-time position or internship as a
+					software developer.
 				</p>
 				<br />
 				{/* <p className="italic">
@@ -50,15 +51,20 @@ const Skills_About = () => {
 			<div className="skills">
 				<h1>Skills</h1>
 				<ul>
+					<li>MongoDB</li>
+					<li>Express</li>
 					<li>React</li>
+					<li>NodeJS</li>
+					<li>Mongoose</li>
+					<li>Zod</li>
+					<li>Recoil</li>
+					<li>Redux Toolkit</li>
 					<li>Java</li>
-					<li>Framer Motion</li>
 					<li>Tailwind</li>
 					<li>Jest</li>
 					<li>JavaScript</li>
 					<li>Firebase</li>
 					<li>Git</li>
-					<li>Redux Toolkit</li>
 					<li>Formik</li>
 					<li>Yup</li>
 					<li>HTML</li>

@@ -4,16 +4,10 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 import foodalix from "../../images/Projects/foodalix.png";
 import netflixGPT from "../../images/Projects/netflix-gpt.png";
 import hiveDeal from "../../images/Projects/hiveDeal.png";
+import emoti from "../../images/Projects/emoti.png";
+import paytm from "../../images/Projects/paytm.png";
 
 const items = [
-	{
-		id: 1,
-		title: "Foodalix",
-		img: foodalix,
-		desc: "A Dynamic food ordering app which takes live Swiggy API and displays the restaurants and also there respective menus through which the user can add items into the cart and order food.",
-		github: "https://github.com/Puneet-NJ/food-oredering-app",
-		live: "https://foodalix-002.netlify.app/",
-	},
 	{
 		id: 2,
 		title: "HiveDeal",
@@ -23,12 +17,37 @@ const items = [
 		live: "https://e-comm-fe.vercel.app/",
 	},
 	{
+		id: 4,
+		title: "Client Managment System",
+		img: emoti,
+		desc: "A full-stack website in which admin can add and update customer and their demoDates. The same could be viewed by user and also the user could only be created by admin",
+		github: "https://github.com/Puneet-NJ/emoti",
+		live: "emoti-frontend.vercel.app/",
+	},
+	{
 		id: 3,
 		title: "NetflixGPT",
 		img: netflixGPT,
 		desc: "A near look alike of Netflix with movie banners taken from TMDB's API and also has Auth done using Firebase. This also has been integrated with OpenAI's GPT API to recommend users some movie based on the prompt. And, is also Responsive.",
 		github: "https://github.com/Puneet-NJ/Netflix-GPT",
 		live: "https://netlfix-gpt.netlify.app/",
+	},
+	{
+		id: 5,
+		title: "Ongoing: Transactions website",
+		img: paytm,
+		desc: "A Transactions website like Paytm through which one can send and recieve in money. The most exciting feature: Transactions in Backend using sessions.",
+		github: "https://github.com/Puneet-NJ/100xdevs/tree/main/week-8",
+		live: "https://github.com/Puneet-NJ/100xdevs/tree/main/week-8",
+	},
+
+	{
+		id: 1,
+		title: "Foodalix",
+		img: foodalix,
+		desc: "A Dynamic food ordering app which takes live Swiggy API and displays the restaurants and also there respective menus through which the user can add items into the cart and order food.",
+		github: "https://github.com/Puneet-NJ/food-oredering-app",
+		live: "https://foodalix-002.netlify.app/",
 	},
 ];
 
